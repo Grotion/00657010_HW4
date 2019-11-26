@@ -83,7 +83,7 @@ struct InspectorEditor: View
                 else
                 {
                     print("Add New!")
-                    self.inspectorData.inspectors.insert(inspector, at: 0)
+                    self.inspectorData.inspectors.append(inspector)
                     sort(&self.inspectorData.inspectors)
                 }
                 self.presentationMode.wrappedValue.dismiss()

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F25018DC-CE9C-4EA5-ABE0-4EAF91E9A0F7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "331E7E48-E6FA-45FB-8158-642EEA9BACBF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "00657010_HW4/InspectorData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "inspectors"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "331E7E48-E6FA-45FB-8158-642EEA9BACBF - 3d4107904e29f585"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0657010_HW4.InspectorData.$inspectors.getter : Combine.Published&lt;Swift.Array&lt;_0657010_HW4.Inspector&gt;&gt;.Publisher"
+                  moduleName = "00657010_HW4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grotion/Desktop/IOS%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC%E5%85%A5%E9%96%80/hw4/00657010_HW4/00657010_HW4/InspectorData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "115">
+               </Location>
+               <Location
+                  uuid = "331E7E48-E6FA-45FB-8158-642EEA9BACBF - b2bbc8734010424e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0657010_HW4.InspectorData.inspectors.modify : Swift.Array&lt;_0657010_HW4.Inspector&gt;"
+                  moduleName = "00657010_HW4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grotion/Desktop/IOS%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC%E5%85%A5%E9%96%80/hw4/00657010_HW4/00657010_HW4/InspectorData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "331E7E48-E6FA-45FB-8158-642EEA9BACBF - fde7498701c31d86"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0657010_HW4.InspectorData.inspectors.modify : Swift.Array&lt;_0657010_HW4.Inspector&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "00657010_HW4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grotion/Desktop/IOS%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC%E5%85%A5%E9%96%80/hw4/00657010_HW4/00657010_HW4/InspectorData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
