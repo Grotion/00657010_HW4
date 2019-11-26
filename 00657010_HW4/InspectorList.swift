@@ -13,7 +13,7 @@ struct InspectorList: View
     
     @ObservedObject var inspectorData: InspectorData
     @State private var showEditInspector = false
-    
+    @State private var recoverData: [Inspector] = []/* = [Inspector(id: UUID(), isProfile: true, name: "Grotion", selectedGender: "男", age: 9, selectedRegion: "亞洲", score: 5, isFavorite: true, selectedJob: "學生", instagram: "", note: "")]*/
     var body: some View
     {
         GeometryReader
@@ -42,9 +42,14 @@ struct InspectorList: View
                     HStack
                     {
                         EditButton()
-                        .padding(.trailing, 20)
+                        .padding(.trailing, 10)
                         Button(action:
                         {
+                            self.recoverData.removeAll()
+                            for data in self.inspectorData.inspectors
+                            {
+                                self.recoverData.append(data)
+                            }
                             var count = 0
                             while self.inspectorData.inspectors.count > 0
                             {
@@ -54,7 +59,22 @@ struct InspectorList: View
                             }
                         },label: {Text("被發現了！")})
                         .foregroundColor(Color.red)
-                    },trailing:
+                        .padding(.trailing, 10)
+                        Button(action:
+                        {
+                            var count = 0
+                            for inspector in self.recoverData
+                            {
+                                print("recover data: \(count)")
+                                self.inspectorData.inspectors.append(inspector)
+                                count += 1
+                            }
+                            sort(&self.inspectorData.inspectors)
+                        },label: {Text("復原刪除資料")})
+                        .foregroundColor(Color.blue)
+                        .padding(.trailing, 10)
+                    }
+                    ,trailing:
                     HStack
                     {
                         Button(action:
