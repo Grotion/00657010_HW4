@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A00D9E32388780B001C736D /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00D9E22388780B001C736D /* Instruction.swift */; };
+		4A00D9E52388781E001C736D /* Analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A00D9E42388781E001C736D /* Analysis.swift */; };
 		4A22F193238830DF00FE90DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A22F192238830DF00FE90DE /* AppDelegate.swift */; };
 		4A22F195238830DF00FE90DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A22F194238830DF00FE90DE /* SceneDelegate.swift */; };
 		4A22F198238830DF00FE90DE /* _0657010_HW4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A22F196238830DF00FE90DE /* _0657010_HW4.xcdatamodeld */; };
@@ -14,10 +16,20 @@
 		4A22F19C238830E000FE90DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A22F19B238830E000FE90DE /* Assets.xcassets */; };
 		4A22F19F238830E000FE90DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A22F19E238830E000FE90DE /* Preview Assets.xcassets */; };
 		4A22F1A2238830E000FE90DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A22F1A0238830E000FE90DE /* LaunchScreen.storyboard */; };
+		4A22F1AA238832D600FE90DE /* Inspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A22F1A9238832D600FE90DE /* Inspector.swift */; };
+		4A22F1AC238833FE00FE90DE /* InspectorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A22F1AB238833FE00FE90DE /* InspectorData.swift */; };
+		4A22F1B02388345200FE90DE /* InspectorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A22F1AF2388345200FE90DE /* InspectorList.swift */; };
+		4A22F1B22388348F00FE90DE /* InspectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A22F1B12388348F00FE90DE /* InspectorRow.swift */; };
+		4A22F1B4238834C500FE90DE /* InspectorEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A22F1B3238834C500FE90DE /* InspectorEditor.swift */; };
+		4A22F1B92388356C00FE90DE /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A22F1B82388356C00FE90DE /* FirstPage.swift */; };
+		4A69B25A238C44FE00B3FE3A /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69B259238C44FE00B3FE3A /* DemoData.swift */; };
+		4AE8450E23899F3800FF6978 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8450D23899F3800FF6978 /* PieChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A22F18F238830DF00FE90DE /* 00657010_HW4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 00657010_HW4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A00D9E22388780B001C736D /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
+		4A00D9E42388781E001C736D /* Analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analysis.swift; sourceTree = "<group>"; };
+		4A22F18F238830DF00FE90DE /* 專業稽查員.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "專業稽查員.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A22F192238830DF00FE90DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A22F194238830DF00FE90DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4A22F197238830DF00FE90DE /* _0657010_HW4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _0657010_HW4.xcdatamodel; sourceTree = "<group>"; };
@@ -26,6 +38,14 @@
 		4A22F19E238830E000FE90DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4A22F1A1238830E000FE90DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A22F1A3238830E000FE90DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A22F1A9238832D600FE90DE /* Inspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspector.swift; sourceTree = "<group>"; };
+		4A22F1AB238833FE00FE90DE /* InspectorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorData.swift; sourceTree = "<group>"; };
+		4A22F1AF2388345200FE90DE /* InspectorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorList.swift; sourceTree = "<group>"; };
+		4A22F1B12388348F00FE90DE /* InspectorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorRow.swift; sourceTree = "<group>"; };
+		4A22F1B3238834C500FE90DE /* InspectorEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorEditor.swift; sourceTree = "<group>"; };
+		4A22F1B82388356C00FE90DE /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		4A69B259238C44FE00B3FE3A /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		4AE8450D23899F3800FF6978 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +70,7 @@
 		4A22F190238830DF00FE90DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A22F18F238830DF00FE90DE /* 00657010_HW4.app */,
+				4A22F18F238830DF00FE90DE /* 專業稽查員.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +81,16 @@
 				4A22F192238830DF00FE90DE /* AppDelegate.swift */,
 				4A22F194238830DF00FE90DE /* SceneDelegate.swift */,
 				4A22F199238830DF00FE90DE /* ContentView.swift */,
+				4A22F1B82388356C00FE90DE /* FirstPage.swift */,
+				4A00D9E22388780B001C736D /* Instruction.swift */,
+				4A22F1A9238832D600FE90DE /* Inspector.swift */,
+				4A22F1AB238833FE00FE90DE /* InspectorData.swift */,
+				4A69B259238C44FE00B3FE3A /* DemoData.swift */,
+				4A22F1AF2388345200FE90DE /* InspectorList.swift */,
+				4A22F1B3238834C500FE90DE /* InspectorEditor.swift */,
+				4A22F1B12388348F00FE90DE /* InspectorRow.swift */,
+				4A00D9E42388781E001C736D /* Analysis.swift */,
+				4AE8450D23899F3800FF6978 /* PieChart.swift */,
 				4A22F19B238830E000FE90DE /* Assets.xcassets */,
 				4A22F1A0238830E000FE90DE /* LaunchScreen.storyboard */,
 				4A22F1A3238830E000FE90DE /* Info.plist */,
@@ -95,7 +125,7 @@
 			);
 			name = 00657010_HW4;
 			productName = 00657010_HW4;
-			productReference = 4A22F18F238830DF00FE90DE /* 00657010_HW4.app */;
+			productReference = 4A22F18F238830DF00FE90DE /* 專業稽查員.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -149,10 +179,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE8450E23899F3800FF6978 /* PieChart.swift in Sources */,
+				4A22F1AA238832D600FE90DE /* Inspector.swift in Sources */,
+				4A69B25A238C44FE00B3FE3A /* DemoData.swift in Sources */,
+				4A00D9E52388781E001C736D /* Analysis.swift in Sources */,
+				4A22F1B02388345200FE90DE /* InspectorList.swift in Sources */,
 				4A22F193238830DF00FE90DE /* AppDelegate.swift in Sources */,
 				4A22F195238830DF00FE90DE /* SceneDelegate.swift in Sources */,
+				4A00D9E32388780B001C736D /* Instruction.swift in Sources */,
+				4A22F1B22388348F00FE90DE /* InspectorRow.swift in Sources */,
+				4A22F1B92388356C00FE90DE /* FirstPage.swift in Sources */,
 				4A22F19A238830DF00FE90DE /* ContentView.swift in Sources */,
+				4A22F1B4238834C500FE90DE /* InspectorEditor.swift in Sources */,
 				4A22F198238830DF00FE90DE /* _0657010_HW4.xcdatamodeld in Sources */,
+				4A22F1AC238833FE00FE90DE /* InspectorData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +337,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.-0657010-HW4";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "專業稽查員";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,7 +356,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.-0657010-HW4";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "專業稽查員";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
