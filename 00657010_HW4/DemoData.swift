@@ -9,7 +9,7 @@
 import Foundation
 
 var DemoData = [
-    Inspector(id: UUID(), isProfile: true, name: "Grotion", selectedGender: "男", age: 9, selectedRegion: "亞洲", score: 0, isFavorite: true, selectedJob: "學生", instagram: "", note: ""),
+    Inspector(id: UUID(), isProfile: true, name: "Grotion", selectedGender: "男", age: 9, selectedRegion: "亞洲", score: 5, isFavorite: true, selectedJob: "學生", instagram: "", note: ""),
     Inspector(id: UUID(), isProfile: true, name: "Alice", selectedGender: "女", age: 12, selectedRegion: "歐洲", score: 1, isFavorite: true, selectedJob: "學生", instagram: "", note: ""),
     Inspector(id: UUID(), isProfile: true, name: "Dog", selectedGender: "其他", age: 18, selectedRegion: "非洲", score: 2, isFavorite: true, selectedJob: "學生", instagram: "", note: ""),
     Inspector(id: UUID(), isProfile: false, name: "Paul", selectedGender: "男", age: 17, selectedRegion: "北美洲", score: 3, isFavorite: false, selectedJob: "學生", instagram: "", note: ""),
