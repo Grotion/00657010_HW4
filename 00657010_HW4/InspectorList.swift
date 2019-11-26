@@ -13,7 +13,7 @@ struct InspectorList: View
     
     @ObservedObject var inspectorData: InspectorData
     @State private var showEditInspector = false
-    @State private var recoverData: [Inspector] = []/* = [Inspector(id: UUID(), isProfile: true, name: "Grotion", selectedGender: "男", age: 9, selectedRegion: "亞洲", score: 5, isFavorite: true, selectedJob: "學生", instagram: "", note: "")]*/
+    @State private var recoverData: [Inspector] = []
     var body: some View
     {
         GeometryReader
