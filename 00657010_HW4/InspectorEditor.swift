@@ -133,7 +133,8 @@ func sort(_ initial: inout [Inspector])
 {
     //print("initial.count: \(initial.count)")
     //print("initial: \(initial)")
-    var temp: [Inspector] = [Inspector(id: UUID(), isProfile: true, name: "Grotion", selectedGender: "男", age: 9, selectedRegion: "亞洲", score: 0, isFavorite: true, selectedJob: "學生", instagram: "", note: "")]
+    var temp: [Inspector] = []
+    var sortedData: [Inspector] = []
     var count = 0
     for data in initial
     {
@@ -144,6 +145,17 @@ func sort(_ initial: inout [Inspector])
             count += 1
         }
     }
+    for score in stride(from: 5, to: -1, by: -1)
+    {
+        for data in temp
+        {
+            if data.score == score
+            {
+                sortedData.append(data)
+            }
+        }
+    }
+    temp.removeAll()
     count = 0
     for data in initial
     {
@@ -154,12 +166,21 @@ func sort(_ initial: inout [Inspector])
             count += 1
         }
     }
+    for score in stride(from: 5, to: -1, by: -1)
+    {
+        for data in temp
+        {
+            if data.score == score
+            {
+                sortedData.append(data)
+            }
+        }
+    }
     //print("temp.count: \(temp.count)")
     //print("temp: \(temp)")
-    temp.remove(at: 0)
     //print("temp.count: \(temp.count)")
     //print("temp: \(temp)")
-    initial = temp
+    initial = sortedData
 }
 
 
